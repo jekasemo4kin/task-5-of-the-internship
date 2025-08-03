@@ -116,7 +116,7 @@ const App = () => {
         <div>Author(s)</div>
         <div></div>
       </div>
-      <div className={cn("flex flex-col gap-3")}>
+      <div className={cn("flex flex-col gap-1")}>
         {books.map((book, index) => (
           <BookRow key={book.id} book={book} index={index + 1} />
         ))}

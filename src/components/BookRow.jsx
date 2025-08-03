@@ -7,7 +7,7 @@ const cn = (...inputs) => twMerge(clsx(inputs));
 const BookRow = ({ book, index }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className={cn("p-4 bg-gray-50 rounded-lg shadow-sm border border-gray-200 cursor-pointer")}>
+    <div className={cn("p-2 bg-gray-50 rounded-lg shadow-sm border border-gray-200 cursor-pointer")}>
       <div 
         className="grid grid-cols-[50px_1fr_2fr_2fr_50px] items-center gap-4"
         onClick={() => setIsOpen(!isOpen)}
